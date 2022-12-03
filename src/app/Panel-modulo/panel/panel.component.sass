@@ -1,0 +1,46 @@
+.contenedor
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 90%
+    min-height: 400px
+    margin: auto
+    flex-wrap: wrap
+    
+    .card
+        display: flex
+        align-items: center
+        width: 30%
+        height: 100px
+
+        .contenido
+            display: flex
+            width: 100%
+            flex-direction: column
+            gap: 20px
+
+            .titulo
+                display: flex
+                justify-content: center
+                align-items: center
+                height: 50px
+                background: black
+                border-radius: 10px
+
+                h1
+                    margin: 0
+                    color: white
+
+            .opciones
+                display: flex
+                width: 100%
+                justify-content: space-between
+
+                a
+                    text-decoration: none
+                    color: black
+                    font-size: 15px
+                    transition: .4s
+
+                a:hover
+                    font-weight: bold
